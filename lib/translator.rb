@@ -12,7 +12,7 @@ results[key][:japanese] = {}
 #binding.pry
 results[key][:english][val] = library[key][0]
 results[key][:japanese][val] =  library[key][1]
-binding.pry
+#binding.pry
   end
 library
 end
