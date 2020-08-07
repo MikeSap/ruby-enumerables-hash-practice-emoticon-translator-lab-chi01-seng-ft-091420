@@ -17,10 +17,14 @@ end
 def get_japanese_emoticon (file, emo)
     # code goes here
     library = load_library(file)
+    japanese = nil
  library.each do |key, val|
             if val[:english] == emo
-      val[:japanese]
+      japanese = val[:japanese]
         end
+      end
+      if !japanese
+        puts ""
       end
      end
 
