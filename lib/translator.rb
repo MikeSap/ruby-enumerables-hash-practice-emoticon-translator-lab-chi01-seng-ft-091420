@@ -17,7 +17,10 @@ end
 def get_japanese_emoticon (file, emo)
     # code goes here
     load_library(file)
-    
+    binding.pry
+    if emo = results[key][:english]
+      results[key][:english]
+  end
 end
 
 def get_english_meaning (file, emo)
