@@ -19,7 +19,7 @@ def get_japanese_emoticon (file, emo)
     load_library(file)
     library = YAML.load_file(file)
        binding.pry
-        if emo == :english
+        if file[value] == :english
       :japanese
   end
 end
