@@ -9,7 +9,7 @@ library.each do |key, val|
 results[key] = {}
 results[key][:english] = library[key][0]
 results[key][:japanese] = library[key][1]
-#binding.pry
+binding.pry
   end
 library
 end
