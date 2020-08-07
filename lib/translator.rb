@@ -4,7 +4,6 @@ require 'pry'
 def load_library (file)
   # code goes here
 library = YAML.load_file(file)
-binding.pry
 results = {}
 library.each do |key, val|
 results[key] = {}
