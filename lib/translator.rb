@@ -11,7 +11,7 @@ results[key][:english] = {}
 results[key][:japanese] = {}
 results[key][:english] << library[key][0]
 results[key][:japanese] << library[key][1]
-#binding.pry
+binding.pry
   end
 library
 end
