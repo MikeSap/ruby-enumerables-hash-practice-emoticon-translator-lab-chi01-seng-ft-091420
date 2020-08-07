@@ -36,7 +36,7 @@ def get_english_meaning (file, emo)
     english = nil
     library.each do |key,val|
       if val[:japanese] == emo
-        english = val[:english]
+        english = key
   end
 end
   if english 
