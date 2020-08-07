@@ -18,11 +18,12 @@ def get_japanese_emoticon (file, emo)
     # code goes here
     library = load_library(file)
        #binding.pry
-       libary.
-        if library[:english] == :english
+       library.each do |key, val|
+            if emo == library[key][val]
       :japanese
-  end
-end
+        end
+      end
+     end
 
 def get_english_meaning (file, emo)
     # code goes here
