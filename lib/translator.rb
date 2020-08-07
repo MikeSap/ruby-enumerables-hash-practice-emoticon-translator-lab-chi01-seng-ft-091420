@@ -3,7 +3,7 @@ require 'pry'
 
 def load_library (file)
   # code goes here
-libary = YAML.load_file('emoticons.yml')
+libary = YAML.load_file(file)
 results = {}
 library.each do |key, val|
 results[key] = {}
