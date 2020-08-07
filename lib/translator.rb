@@ -38,6 +38,7 @@ def get_english_meaning (file, emo)
       if val[:japanese] == emo
         english = val[:english]
   end
+end
   if english 
     english
   else
