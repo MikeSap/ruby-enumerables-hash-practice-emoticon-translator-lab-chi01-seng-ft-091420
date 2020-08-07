@@ -11,7 +11,7 @@ results[key][:english] = library[key][0]
 results[key][:japanese] = library[key][1]
 #binding.pry
   end
-library
+results
 end
 
 def get_japanese_emoticon
