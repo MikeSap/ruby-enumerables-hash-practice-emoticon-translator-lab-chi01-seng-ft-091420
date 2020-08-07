@@ -14,8 +14,9 @@ results[key][:japanese] = val[1]
 results
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon (file, emo)
+    # code goes here
+    
 end
 
 def get_english_meaning
