@@ -32,5 +32,6 @@ def get_japanese_emoticon (file, emo)
 
 def get_english_meaning (file, emo)
     # code goes here
-    load_library(file)
+    library = load_library(file)
+    
 end
