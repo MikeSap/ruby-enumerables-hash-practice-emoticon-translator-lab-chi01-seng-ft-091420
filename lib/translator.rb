@@ -9,9 +9,10 @@ library.each do |key, val|
 results[key] = {}
 results[key][0] = :english
 results[key][1] = :japanese
+results[key][0] << library[key][0]
 binding.pry
   end
-libary
+library
 end
 
 def get_japanese_emoticon
