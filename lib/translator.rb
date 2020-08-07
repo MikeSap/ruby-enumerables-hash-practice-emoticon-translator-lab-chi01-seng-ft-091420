@@ -24,7 +24,7 @@ def get_japanese_emoticon (file, emo)
         end
       end
       if !japanese
-        puts ""
+         "There is no emoticon with those values!"
       end
      end
 
