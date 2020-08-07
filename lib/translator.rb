@@ -7,6 +7,8 @@ library = YAML.load_file(file)
 results = {}
 library.each do |key, val|
 results[key] = {}
+results[key][0] = :english
+results[key][1] = :japanese
 binding.pry
   end
 libary
