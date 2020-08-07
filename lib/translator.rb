@@ -17,10 +17,10 @@ end
 def get_japanese_emoticon (file, emo)
     # code goes here
     library = load_library(file)
-       #binding.pry
+       binding.pry
        library.each do |key, val|
-            if emo == [val]
-      :japanese
+            if val[:english] == emo
+      val[:japanese]
         end
       end
      end
